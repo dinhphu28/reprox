@@ -1,0 +1,3 @@
+docker image build -t recordingproxy:latest .
+
+docker run -dit --restart always -p 8080:80 --name RecordingProxy -v /home/RecordingProxy/:/app/ -v /etc/timezone:/etc/timezone:ro -v /etc/localtime:/etc/localtime:ro recordingproxy:latest

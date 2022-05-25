@@ -1,0 +1,6 @@
+.vs/
+bin/
+obj/
+Properties/PublishProfiles/
+appsettings - Copy.Development.json
+appsettings - Copy.json
